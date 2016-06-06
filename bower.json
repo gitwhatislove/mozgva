@@ -1,0 +1,12 @@
+{
+  "name": "loftblog_angular_phonecat_app",
+  "description": "A starter project for AngularJS on LoftBlog",
+  "version": "0.0.2",
+  "homepage": "https://github.com/Severenit/loftblog_angular_phonecat_app",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "jquery": "~2.1.1",
+    "bootstrap": "~3.1.1"
+  }
+}
