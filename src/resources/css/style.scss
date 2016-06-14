@@ -157,6 +157,7 @@ p,h1,h2,h3,h4,h5,h6 {padding: 0; margin: 0;}
 	color: #57585d;
 	margin-top:50px;
 	margin-left: 39px;
+	margin: 50px 0 50px 39px;
 	h2 {
 		line-height:0;
 		padding-top: 10px;
@@ -165,6 +166,20 @@ p,h1,h2,h3,h4,h5,h6 {padding: 0; margin: 0;}
 .social_icon {
 	li {
 		display: inline-block;
+	}
+}
+.soc_wrapp {	
+	margin: 20px 0 10px !important;
+	padding: 0 !important;
+	text-align: left;
+	li {
+		display: inline-block;
+		margin:0;
+		padding:0;
+		img {
+			margin:0;
+			padding:0;
+		}
 	}
 }
 .menu {
@@ -402,6 +417,9 @@ p,h1,h2,h3,h4,h5,h6 {padding: 0; margin: 0;}
 		.slider_x5 {
 			margin: 5px auto; 
 		}
+		.float_left, .float_right  {
+			padding-top: 20px;
+		}
 
 }
 
@@ -537,12 +555,22 @@ p,h1,h2,h3,h4,h5,h6 {padding: 0; margin: 0;}
 		margin: 50px auto 0;
 		background-color: rgba(255, 255, 255, 0.27);
 		border-radius: 50px;
+		min-height: 46px;
 		li {
-			padding: 5px 5px;
+			padding:11px 5px;
+		}
+		li:first-child {
+			float: left;
+			padding: 5px;
 		}
 	}
 	.menu_link {
 		margin-top: 40px;
+		li {
+			a {
+				text-decoration: underline;
+			}
+		}
 	}
 }
 .first_screen {
@@ -628,6 +656,8 @@ p,h1,h2,h3,h4,h5,h6 {padding: 0; margin: 0;}
 		// height: 50px;
 		img {
 			margin: 0 !important;
+			position: relative;
+			top: -3px;
 		}
 		ul {
 			padding: 0 !important;
@@ -636,6 +666,14 @@ p,h1,h2,h3,h4,h5,h6 {padding: 0; margin: 0;}
 				display: block;
 			}
 		}
+	}
+	.name {
+		width: 80px;
+	}
+	.email {
+		padding-left: 100px;
+		position: relative;
+		top: -5px;
 	}
 	.wrapp_text_franchiz {
 
