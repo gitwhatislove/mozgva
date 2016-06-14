@@ -6,6 +6,7 @@ import calendar from './calendar/index';
 import certificate from './certificate/index';
 import corporat from './corporat/index';
 import lk from './lk/index';
+import franchise from './franchise/index';
 
 
 export default angular.module('dashboard',
@@ -14,7 +15,8 @@ export default angular.module('dashboard',
         calendar.name,
         certificate.name,
         corporat.name,
-        lk.name
+        lk.name,
+        franchise.name
     ])
     // .service('login', Login)
     // .service('modal', Modal)
